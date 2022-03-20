@@ -1,7 +1,7 @@
 CC = gcc
 FLAGS = 
-FILES = memory.c chunk.c main.c
-HEADERS = memory.h chunk.h
+FILES = memory.c chunk.c debug.c value.c main.c
+HEADERS = memory.h chunk.h debug.h value.h
 OUTNAME = a.out
 
 $(OUTNAME) : $(FILES) $(HEADERS)
